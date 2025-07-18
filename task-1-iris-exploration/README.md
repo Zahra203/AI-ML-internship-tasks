@@ -1,17 +1,51 @@
-# Task 1 - Iris Dataset Exploration
+# Task 1: Iris Dataset Exploration and Visualization
+
 ## Objective
-Explore the Iris dataset using Python libraries to understand patterns and visual trends.
+Explore and visualize the Iris dataset using Python libraries to understand feature relationships, patterns, and data distribution.
+
+---
 
 ## Dataset
-- **Source**: Seaborn's built-in Iris dataset
-- 150 samples of iris flowers with 4 features: sepal length, sepal width, petal length, petal width
+- **Name**: Iris dataset
+- **Source**: Built-in dataset from Seaborn
+- **Samples**: 150 iris flowers
+- **Features**:
+  - Sepal Length
+  - Sepal Width
+  - Petal Length
+  - Petal Width
+- **Target**: Species (Setosa, Versicolor, Virginica)
+
+---
 
 ## Techniques Used
-- Data loading and inspection using Pandas
-- Visualization with Matplotlib and Seaborn
-- Descriptive statistics and outlier detection
+- Data loading and inspection using **Pandas**
+- Summary statistics using `.describe()` and `.info()`
+- Visualizations: Scatter plots, histograms, box plots, pair plots
+- Outlier and distribution analysis
 
-## Key Findings
-- Setosa species is easily separable based on petal features
-- Petal length and width show the strongest variation between species
-- No missing data, clean dataset for classification models
+---
+### Final Insights
+
+- The dataset contains 150 samples with no missing values.
+- Petal measurements (especially length and width) show clear separation among species.
+- Setosa is well-separated from other classes.
+- Some outliers can be seen in Sepal Width for certain samples.
+- This dataset is suitable for beginner-level classification models.
+
+---
+
+## Libraries Used (with Short Explanation)
+
+| Library           | Purpose                                                 |
+|-------------------|----------------------------------------------------------|
+| **pandas**        | Handle and explore structured tabular data               |
+| **matplotlib**    | Create static, basic plots (scatter, box, histograms)    |
+| **seaborn**       | Generate enhanced and stylish statistical plots          |
+| **numpy**         | Handle numerical data and support plotting/analysis      |
+
+---
+
+## Files Included
+- `iris_exploration.ipynb`: Jupyter notebook with full code and visualizations
+- `README.md`: Summary and description of the task
