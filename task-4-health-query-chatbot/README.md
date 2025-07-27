@@ -38,6 +38,7 @@ tqdm
 
 ##  Book Used for Reference
 `The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf`
+more books can be added in future
 
 ##  Files
 - `health_query_chatbot.ipynb`: Full notebook 
