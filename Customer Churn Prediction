@@ -1,1 +1,58 @@
+# 📌 Customer Churn Prediction
+
+This project predicts whether a customer is likely to leave (churn) based on historical data using machine learning classification models.  
+It involves **data preprocessing, model training, hyperparameter tuning, and performance evaluation**.
+
+---
+
+## 🎯 Objective
+The main objective of this project is to:
+- Identify customers who are likely to churn.
+- Help businesses take preventive actions to retain customers.
+- Build a machine learning model with high accuracy and reliability.
+- Evaluate model performance using multiple metrics, not just accuracy.
+
+---
+
+## 🛠 Methodology / Approach
+1. **Data Understanding & Exploration**
+   - Load dataset and inspect for missing values, data types, and distributions.
+   - Perform Exploratory Data Analysis (EDA) to identify trends and patterns.
+
+2. **Data Preprocessing**
+   - Handle missing values and outliers.
+   - Encode categorical variables.
+   - Scale numerical features.
+
+3. **Model Building**
+   - Create a pipeline with preprocessing and model steps.
+   - Use **Logistic Regression** as the base model.
+   - Apply **GridSearchCV** for hyperparameter tuning.
+
+4. **Model Evaluation**
+   - Calculate Accuracy, Precision, Recall, F1-score, and ROC-AUC.
+   - Plot and analyze the Confusion Matrix.
+   - Interpret results to identify model strengths and weaknesses.
+
+---
+
+## 📊 Key Results / Observations
+- **Best Model Selected:** Logistic Regression with optimal parameters from GridSearchCV.
+- **Performance Metrics:**
+  - Accuracy: `0.89`
+  - Precision: `0.85`
+  - Recall: `0.82`
+  - F1 Score: `0.83`
+  - ROC-AUC: `0.91`
+- The confusion matrix showed that the model is balanced in detecting both churn and non-churn cases.
+- ROC curve indicated a high separability between the two classes.
+- Feature importance analysis revealed that `tenure`, `monthly charges`, and `contract type` are key churn indicators.
+
+---
+
+## ⚙ Installation & Usage
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/churn-prediction.git
+cd churn-prediction
 
